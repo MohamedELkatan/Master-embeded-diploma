@@ -25,7 +25,7 @@ struct SEmployee{
 	struct SDate graduationdate;
 };
 
-struct SEmployee READ_INFORMATIONS(	int counter,struct SEmployee member ){
+struct SEmployee READ_INFORMATIONS(int counter,struct SEmployee member ){
 
 		printf("enter %d employee name : ",counter+1);
 		fflush(stdin);fflush(stdout);
@@ -55,7 +55,7 @@ struct SEmployee READ_INFORMATIONS(	int counter,struct SEmployee member ){
 
 }
 
-void PRINT_EMPLOYEES (int counter,	 struct SEmployee member1){
+void PRINT_EMPLOYEES (int counter,struct SEmployee member1){
 	printf("\nemployee number %d informtion is:\n name:%s \n birth date : ( %d / %d / %d ) \n graduation date : ( %d / %d / %d ) \n salary : %d",counter+1 ,
 			member1.name,
 			member1.birthdate.day,
