@@ -1,6 +1,6 @@
 /*
  ============================================================================
- Name        : homwork_q6.c
+ Name        : homework_q6.c
  Author      : Mohammed Elkattan
  Version     :
  Copyright   : Your copyright notice
